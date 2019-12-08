@@ -1,0 +1,8 @@
+entity Document{
+    name String
+    creation Instant
+}
+
+relationship ManyToOne{
+    Document{creator(login)} to User
+}

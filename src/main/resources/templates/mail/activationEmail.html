@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html    xmlns:th="http://www.thymeleaf.org" th:lang="${#locale.language}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="x-apple-disable-message-reformatting">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="telephone=no" name="format-detection">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <title th:text="#{email.activation.title}">JHipster activation</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="shortcut icon" th:href="@{|${baseUrl}/favicon.ico|}"
+
+    <title></title>
+    <!--[if (mso 16)]>
+    <style type="text/css">
+        a {text-decoration: none;}
+    </style>
+    <![endif]-->
+    <!--[if gte mso 9]><style>sup { font-size: 100% !important; }</style><![endif]-->
+</head>
+
+<body>
+<div class="es-wrapper-color">
+    <!--[if gte mso 9]>
+    <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+        <v:fill type="tile" color="#ffffff"></v:fill>
+    </v:background>
+    <![endif]-->
+    <table class="es-wrapper" width="100%" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr>
+            <td class="esd-email-paddings" valign="top">
+
+
+
+
+
+
+
+                <table class="es-content" align="center" cellspacing="0" cellpadding="0">
+                    <tbody>
+
+                    <tr>
+                        <td class="esd-stripe" esd-custom-block-id="8442" style="background-color: rgb(247, 247, 247);" align="center" bgcolor="#f7f7f7">
+                            <table class="es-footer-body" align="center" width="600" cellspacing="0" cellpadding="0" style="background-color:#e9e9e9;">
+                                <tbody>
+                                <tr>
+                                    <td class="esd-structure es-p20t es-p20b es-p20r es-p20l" esd-general-paddings-checked="false" align="left">
+                                        <table width="100%" cellspacing="0" cellpadding="0">
+                                            <tbody>
+                                            <tr>
+                                                <td class="esd-container-frame" align="center" width="560" valign="top">
+                                                    <table width="100%" cellspacing="0" cellpadding="0">
+                                                        <tbody>
+
+                                                        <br>
+
+                                                        <tr>
+                                                            <br>
+                                                            <td class="esd-block-image es-p20r es-p20l" align="center"><a target="_blank"><img  class="adapt-img" src="http://devseis.khired.com/wp-content/uploads/2019/10/Lega-final.png" alt="Image" style="display: block;" title="Image" width="200"></a></td>
+                                                        </tr>
+
+
+
+
+
+                                                        <tr>
+                                                            <td class="esd-block-text es-p5b" align="center">
+                                                                <br>   <p>
+                                                                DON'T MISS OUT IMPORTANT INFORMATION FROM LEGA</p>
+                                                                <h1>Confirm your email</h1>
+                                                            </td>
+                                                        </tr>
+
+
+
+
+                                                        <tr>
+                                                            <td class="esd-block-text es-p10t es-p10b" align="Left">
+                                                                <p style="line-height: 150%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Thanks for joining LEGA!</p>
+                                                            </td>
+                                                        </tr>
+
+
+
+                                                        <tr>
+                                                            <td class="esd-block-text es-p10t es-p10b" align="center">
+                                                                <p style="line-height: 150%;">So we can send you important information and updates, we need to check this is the</p>
+                                                                <p>right email address for you.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <form >
+                                                            <tr>
+
+                                                                <td class="esd-block-text es-p10t es-p10b" align="center">
+                                                                    <a style="background-color:#337ab7;border:1px solid #337ab7;border-radius:3px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:14px;line-height:44px;text-align:center;text-decoration:none;width:150px;-webkit-text-size-adjust:none;mso-hide:all;" th:with="url=(@{|${baseUrl}/account/activate?key=${user.activationKey}|})" th:href="${url}"  onclick="window.location.href='${url}'">
+                                                                        Confirm your email
+                                                                        </a>
+                                                                </td>
+                                                            </tr>
+                                                        </form>
+
+                                                        <tr>
+                                                            <td class="esd-block-text es-p10t es-p10b" align="center">
+                                                                <br>
+                                                            </td>
+                                                        </tr>
+
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+    </table>
+
+    <table width="100%" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr>
+            <td class="esd-container-frame" align="center" width="560" valign="top">
+                <table width="100%" cellspacing="0" cellpadding="0">
+                    <tbody>
+
+                    <br>
+
+                    <tr>
+                        <br>
+                        <td class="esd-block-image es-p20r es-p20l" align="center">
+
+                            <p>Button not working? Try this link</p>
+
+                        </td>
+                    </tr>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+
+
+
+
+
+    <table width="100%" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr>
+            <td class="esd-container-frame" align="center" width="560" valign="top">
+                <table width="100%" cellspacing="0" cellpadding="0">
+                    <tbody>
+                    <tr>
+
+                        <td class="esd-block-image es-p20r es-p20l" align="center">
+
+                            <p>
+                                <a th:with="url=(@{|${baseUrl}/account/activate?key=${user.activationKey}|})" th:href="${url}"
+                                   th:text="${url}">Activation link</a>
+                            </p>
+                        </td>
+                    </tr>
+
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+
+
+
+
+</div>
+<div style="position: absolute; left: -9999px; top: -9999px; margin: 0px;"></div>
+</body>
+
+</html>

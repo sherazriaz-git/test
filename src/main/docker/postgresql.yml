@@ -1,0 +1,11 @@
+version: '2'
+services:
+  lega-postgresql:
+    image: postgres:11.5
+    # volumes:
+    #     - ~/volumes/jhipster/Lega/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=Lega
+      - POSTGRES_PASSWORD=
+    ports:
+      - 5432:5432
